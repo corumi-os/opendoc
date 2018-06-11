@@ -1,3 +1,3 @@
-# 深圳酷罗米科技
+# [酷罗米(深圳)科技有限公司](http://corumi.xin)
 
-Hint: 本页面正在开发中...
+![](./corumi_logo.png)
