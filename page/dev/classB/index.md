@@ -1,4 +1,6 @@
-# class B 蓝牙通信协议 *[v0.2.1](#!dev/changelog.md)*
+# class B 蓝牙通信协议(Outdated) *[v0.2.1](#!dev/changelog.md)*
+
+Warning: 请注意，本页面是过期文档的存档
 
 ## 序
 
