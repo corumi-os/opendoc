@@ -59,7 +59,7 @@ Note: 无参数返回默认表示`ACK`
 | [时间日期](#!dev/classC/timedate.md)`0x01` | 本地时间与日期的设置与获取接口 |
 | [指针控制](#!dev/classC/hand.md)`0x02` |手表指针的控制接口|
 | [提醒](#!dev/classC/notify.md)`0x03`   |提醒信息的更新与删除|
-| [节电时间](#!dev/classC/powersave.md)`0x04` |设置节电时间的专门接口|
+| [系统设置](#!dev/classC/syssetting.md)`0x04` |更改系统设置的专门接口|
 | [闹钟](#!dev/classC/alarm.md)`0x05`   |设置闹钟信息的专门接口|
 | [系统信息](#!dev/classC/sysinfo.md)`0x06` |获取如版本号等系统信息|
 | [系统操作](#!dev/classC/sysctrl.md)`0x07` |执行如重启等系统操作|
