@@ -24,6 +24,7 @@ Note: 设备识别码同时放置于广播包厂商信息的第`3`个字节处
 | 0x08   | B5-MKI   | B5有OLED有心率 |
 | 0x09   | B5-MKII  | B5无OLED有心率 |
 | 0x0A   | B5-MKIII | B5无OLED无心率 |
+| 0x12   | B6-MKI   | B6三针异步     |
 
 
 
