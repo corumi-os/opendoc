@@ -20,9 +20,12 @@
         skin: 'default',
       },
       loadSidebar: true,
+      coverpage: true,
+      onlyCover: true,
       auto2top: true,
       loadNavbar: true,
       mergeNavbar: true,
+      executeScript: true,
       'flexible-alerts': {
         style: 'flat'
       },
@@ -36,5 +39,24 @@
   <script src="https://cdn.bootcss.com/docsify/4.9.1/plugins/search.min.js"></script>
   <script src="//unpkg.com/docsify-plantuml/dist/docsify-plantuml.min.js"></script>
   <script src="//unpkg.com/docsify-plugin-flexible-alerts"></script>
+  <style>
+  :root {
+    --theme-color: red;
+    --cover-color: var(--theme-color);
+    --cover-text-align: center;
+    --cover-background-color: #222935;
+    --cover-background-mask-color: white;
+    --cover-background-mask-opacity:0.1;
+    --cover-background-mask-visibility: true;
+    --cover-button-background--hover:red;
+    --cover-button-color--hover:white;
+    --cover-button-primary-background:var(--cover-button-background);
+    --cover-button-primary-color:var(--cover-button-color);
+  }
+  div.cover-main>p>img {
+    text-align:center;
+    width:250px;
+  }
+  </style>
 </body>
 </html>
