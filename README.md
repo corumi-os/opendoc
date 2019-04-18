@@ -1,6 +1,6 @@
 
 
-## Corumi Tecnology开源文档中心
+## Corumi Technology开源文档中心
 
 文档中心页面改版
 

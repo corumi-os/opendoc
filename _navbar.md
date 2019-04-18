@@ -1,6 +1,6 @@
 <!-- # Cool.Romi -->
 
-- **Corumi Tecnology**
+- **Corumi Technology**
 
 - [Class C](docs/classC/classC.md)
 
