@@ -1,4 +1,4 @@
-# class.C 精简系协议 *[v1.0.3](#!dev/changelog.md)*
+# class.C 精简系协议 *[v1.0.3](docs/classC/changelog.md)*
 
 
 
@@ -42,8 +42,8 @@ ps. 每条通信逻辑链路的流控由发起方维持。
 | 406  | 无效的参数         |
 | 410  | 方法未实现或已删除 |
 
-> 例：
-> `->MCU:fc,length=3,0xAB,0x02,0x01`
+> 例：  
+> `->MCU:fc,length=3,0xAB,0x02,0x01`  
 > `MCU->:fc,length=3,0xFF,0x94,0x01` 返回错误`0x194=404`，表示接口`0xAB`不存在
 
 
@@ -52,23 +52,24 @@ ps. 每条通信逻辑链路的流控由发起方维持。
 
 接口均使用`接口索引+操作数+参数`的描述方式
 
-Note: 无参数返回默认表示`ACK`
+> [!NOTE]
+> 无参数返回默认表示`ACK`
 
 | 接口   | 说明                           |
 | ---- | ---------------------------- |
-| [时间日期](#!dev/classC/timedate.md)`0x01` | 本地时间与日期的设置与获取接口 |
-| [指针控制](#!dev/classC/hand.md)`0x02` |手表指针的控制接口|
-| [提醒](#!dev/classC/notify.md)`0x03`   |提醒信息的更新与删除|
-| [系统设置](#!dev/classC/syssetting.md)`0x04` |更改系统设置的专门接口|
-| [闹钟](#!dev/classC/alarm.md)`0x05`   |设置闹钟信息的专门接口|
-| [系统信息](#!dev/classC/sysinfo.md)`0x06` |获取如版本号等系统信息|
-| [系统操作](#!dev/classC/sysctrl.md)`0x07` |执行如重启等系统操作|
-| [数据操作](#!dev/classC/data.md)`0x08` |获取和配置如计步等数据|
+| [时间日期](docs/classC/timedate.md)`0x01` | 本地时间与日期的设置与获取接口 |
+| [指针控制](docs/classC/hand.md)`0x02` |手表指针的控制接口|
+| [提醒](docs/classC/notify.md)`0x03`   |提醒信息的更新与删除|
+| [系统设置](docs/classC/syssetting.md)`0x04` |更改系统设置的专门接口|
+| [闹钟](docs/classC/alarm.md)`0x05`   |设置闹钟信息的专门接口|
+| [系统信息](docs/classC/sysinfo.md)`0x06` |获取如版本号等系统信息|
+| [系统操作](docs/classC/sysctrl.md)`0x07` |执行如重启等系统操作|
+| [数据操作](docs/classC/data.md)`0x08` |获取和配置如计步等数据|
 
 ## 移动端接口
 
 | 接口   | 说明                   |
 | ---- | -------------------- |
-| [应用功能](#!dev/classC/m_func.md)`0x81` | 移动端的功能接口 |
-| [系统信息](#!dev/classC/m_info.md)`0x82` | 获取移动端的信息 |
+| [应用功能](docs/classC/m_func.md)`0x81` | 移动端的功能接口 |
+| [系统信息](docs/classC/m_info.md)`0x82` | 获取移动端的信息 |
 
