@@ -16,8 +16,8 @@
 
 
 > [!TIP]
-> 访问[**设备信息列表**](docs/classC/devices.md)获取不同设备的齿轮箱配置
-
+> 访问[:boom:**设备信息列表详情**:boom:](docs/classC/devices.md)获取不同设备的齿轮箱配置  
+> 访问[:boom:**指针控制详细示例**:boom:](docs/classC/classC_hand_example.md)来获取更详细的操作指南
 
 
 > [!NOTE]
