@@ -11,8 +11,8 @@
 | 返回 | 0x06     | 0x21   | hex code |
 
 > 例：  
-> `APP->:fc,length=2,0x06,0x21`  
-> `->APP:fc,length,0x06,0x21,0x01(识别码)`  
+> `APP->:` `fc`, `length=2`, `0x06`, `0x21`  
+> `->APP:` `fc`, `length`, `0x06`, `0x21`, `0x01(识别码)`  
 
 > [!NOTE]
 > 设备识别码同时放置于广播包厂商信息的第`3`个字节处
@@ -32,8 +32,8 @@
 | 返回 | 0x06 | 0x11 | string |
 
 > 例：  
-> `APP->:fc,length=2,0x06,0x01`  
-> `->APP:fc,length,0x06,0x01,'v','1','.','0'`  
+> `APP->:` `fc`, `length=2`, `0x06`, `0x01`  
+> `->APP:` `fc`, `length`, `0x06`, `0x01`, `'v'`, `'1'`, `'.'`, `'0'`  
 
 
 ## 0x12(0x02).获取编译日期
@@ -44,8 +44,8 @@
 | 返回 | 0x06 | 0x12 | string |
 
 > 例：  
-> `APP->:fc,length=2,0x06,0x12`  
-> `->APP:fc,length,0x06,0x12,日期字符串`  
+> `APP->:` `fc`, `length=2`, `0x06`, `0x12`  
+> `->APP:` `fc`, `length`, `0x06`, `0x12`, `日期字符串`  
 
 
 ## 0x13.获取编译时间
@@ -56,8 +56,8 @@
 | 返回 | 0x06 | 0x13 | string |
 
 > 例：  
-> `APP->:fc,length=2,0x06,0x13`  
-> `->APP:fc,length,0x06,0x13,时间字符串`  
+> `APP->:` `fc`, `length=2`, `0x06`, `0x13`  
+> `->APP:` `fc`, `length`, `0x06`, `0x13`, `时间字符串`  
 
 
 ## 0x14.获取编译序列号
@@ -68,8 +68,8 @@
 | 返回 | 0x06 | 0x13 | string |
 
 > 例：  
-> `APP->:fc,length=2,0x06,0x14`  
-> `->APP:fc,length,0x06,0x14,序列号字符串`  
+> `APP->:` `fc`, `length=2`, `0x06`, `0x14`  
+> `->APP:` `fc`, `length`, `0x06`, `0x14`, `序列号字符串`  
 
 
 ## 0x03.系统类型
@@ -90,12 +90,12 @@
 | 返回`ACK` | 0x06 | 0x03 | / |
 
 > 例1：  
-> `APP->:fc,length=2,0x06,0x03`  
-> `->APP:fc,length=3,0x06,0x03,0x00(ios)`  
+> `APP->:` `fc`, `length=2`, `0x06`, `0x03`  
+> `->APP:` `fc`, `length=3`, `0x06`, `0x03`, `0x00(ios)`  
 
 > 例2：  
-> `APP->:fc,length=3,0x06,0x03,0x01(android)`  
-> `->APP:ack`  
+> `APP->:` `fc`, `length=3`, `0x06`, `0x03`, `0x01(android)`  
+> `->APP:` `ack`  
 
 ## 0x04.广播名称
 
@@ -107,8 +107,8 @@
 | 返回 | 0x06 | 0x04 | string |
 
 > 例：  
-> `->MCU:fc,length=3,0x06,0x04,0x00`  
-> `MCU->:fc,length=8,0x06,0x04,'B','P','C','-','X','X'`  
+> `->MCU:` `fc`, `length=3`, `0x06`, `0x04`, `0x00`  
+> `MCU->:` `fc`, `length=8`, `0x06`, `0x04`, `'C'`, `'O'`, `'R'`, `'U'`, `'M'`, `'I'`  
 
 ### 设置:
 
@@ -124,8 +124,8 @@
 > iOS可能由于缓存原因不会立即更新显示名称  
 
 > 例：  
-> `->MCU:fc,length=7,0x06,0x04,0x01,'T','E','S','T'`  
-> `MCU->:ACK`  
+> `->MCU:` `fc`, `length=7`, `0x06`, `0x04`, `0x01`, `'T'`, `'E'`, `'S'`, `'T'`  
+> `MCU->:` `ACK`  
 
 
 ## 0x05.获取MAC地址
@@ -136,6 +136,6 @@
 | 返回 | 0x06 | 0x05 | hex_array |
 
 > 例:  
-> `->MCU:fc,length=3,0x06,0x05,0x00`  
-> `MCU->:fc,length=8,0x06,0x05,0xDE,0xAD,0xBF,0xCC,0xAA,0xEE`  
+> `->MCU:` `fc`, `length=3`, `0x06`, `0x05`, `0x00`  
+> `MCU->:` `fc`, `length=8`, `0x06`, `0x05`, `0xDE`, `0xAD`, `0xBF`, `0xCC`, `0xAA`, `0xEE`  
 

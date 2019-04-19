@@ -10,9 +10,9 @@
 | 测试 | 0x07 | 0xE0 | xxx |
 
 > 例：   
-> `APP->:fc,length=2,0x07,0xE0`  
-> `->APP:fc,length=2,0x07,0xE1`  
-> `APP->:fc,length=2,0x07,0xE2`  
+> `APP->:` `fc`, `length=2`, `0x07`, `0xE0`  
+> `->APP:` `fc`, `length=2`, `0x07`, `0xE1`  
+> `APP->:` `fc`, `length=2`, `0x07`, `0xE2`  
 
 接收到`0xE0`指令后，设备将返回`0xE1`指令。
 接收到`0xE2`指令后，设备将在数秒后关闭蓝牙，并使其`LED`灯低频闪烁，表示测试通过，可分拣出。
@@ -24,7 +24,7 @@
 | 重启 | 0x07 | 0xFE | xxx |
 
 > 例：   
-> `APP->:fc,length=2,0x07,0xFE`  
+> `APP->:` `fc`, `length=2`, `0x07`, `0xFE`  
 
 > [!NOTE]
 > 移动端可通过判断与设备之间蓝牙连接断开即为成功重启
@@ -36,7 +36,7 @@
 | 关机 | 0x07 | 0xFF | xxx |
 
 > 例：   
-> `APP->:fc,length=2,0x07,0xFF`  
+> `APP->:` `fc`, `length=2`, `0x07`, `0xFF`  
 
 > [!NOTE]
 > 移动端可通过判断与设备之间蓝牙连接断开即为成功关机

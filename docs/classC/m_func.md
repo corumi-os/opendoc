@@ -11,5 +11,5 @@
 | 返回`ACK` | 0x81 | 0x03 | / |
 
 > 例：  
-> `->APP:fc,length=3,0x81,0x03,0x01`  
-> `APP->:ACK`  
+> `->APP:` `fc`, `length=3`, `0x81`, `0x03`, `0x01`  
+> `APP->:` `ACK`  

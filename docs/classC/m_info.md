@@ -14,5 +14,5 @@
 | 返回 | 0x82 | 0x01 | 系统类型 |
 
 > 例：  
-> `->APP:fc,length=2,0x82,0x01`  
-> `APP->:fc,length=3,0x82,0x01,0x00(ios)`  
+> `->APP:` `fc`, `length=2`, `0x82`, `0x01`  
+> `APP->:` `fc`, `length=3`, `0x82`, `0x01`, `0x00(ios)`  
