@@ -6,12 +6,12 @@
 * **设备端接口**
   * [时间日期](docs/classC/timedate.md)
   * [指针控制](docs/classC/hand.md)
-  * [提醒](docs/classC/notify.md)
+  * [通知提醒](docs/classC/notify.md)
   * [系统设置](docs/classC/syssetting.md)
-  * [闹钟](docs/classC/alarm.md)
+  * [闹钟设定](docs/classC/alarm.md)
   * [系统信息](docs/classC/sysinfo.md)
   * [系统操作](docs/classC/sysctrl.md)
-  * [数据操作](docs/classC/data.md)
+  * [数据交互](docs/classC/data.md)
 * **移动端接口**
   * [应用功能](docs/classC/m_func.md)
   * [系统信息](docs/classC/m_info.md)
