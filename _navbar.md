@@ -1,8 +1,5 @@
 <!-- # Cool.Romi -->
 
+- [文档中心](README.md)
 - **Corumi Technology**
-
-- [Class C](docs/classC/classC.md)
-
-* ~Class B(已过期)~
 

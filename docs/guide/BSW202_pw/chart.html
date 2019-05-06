@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>BSW202功耗分析</title>
+    <script src="./g2.min.js">G2.Global.renderer = 'svg';</script>
+    <script src="//unpkg.com/jquery@3.3.1/dist/jquery.min.js"></script>
+    <script src="./data.js"> </script>
+    <link rel="stylesheet" type="text/css" href="./basic.css">
+  </head>
+  <body bgcolor="#1F1F1F" style="height:100%;">
+    <div id="title">
+    <p id="title">BSW202功耗分析图表</p>
+    </div>
+    <div id="c1" class='chart'></div>
+    <div id="c2" class='chart'></div>
+    <div id="c3" class='chart' style='float: left;clear: both;'></div>
+    <div id='ctr' class='chart' style='visibility:hidden;'>
+    <input id="input1" type="number" name="points" min="0.1" max="7.1" />
+    <input id="input2" type="range" name="points" min="0.1" max="5.0" />
+    <p id="txt2" style='color:#FFF'>12345+test</p>
+    <script>
+        var temp;
+        $("#input2").change(function () {
+            temp = $("#input2").val();
+            $("#txt2").html(temp);
+        });
+    </script></div>
+    <div id="c4" class='chart' style='clear: both;width: 642px;'><p class='chart_title'>功能次数与续航关系气泡图</p></div>
+    <script src="./draw.js"> </script>
+  </body>
+</html>
