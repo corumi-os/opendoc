@@ -1,5 +1,5 @@
 <!-- # Cool.Romi -->
 
-- [文档中心](README.md)
+- [首页](README.md)
 - **Corumi Technology**
 
