@@ -4,4 +4,10 @@
 
 [进入](README.md)
 
+<!-- background image -->
+
+<!-- ![](docs/bg.jpg) -->
+
+<!-- background color -->
+ 
 ![color](#f0f0f0)
