@@ -1,4 +1,4 @@
-# class.C 精简系协议 *[v1.0.3](docs/classC/changelog.md)*
+# class.C 精简系协议 *[v1.0.4](docs/classC/changelog.md)*
 
 
 
