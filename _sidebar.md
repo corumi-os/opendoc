@@ -1,6 +1,12 @@
 <!-- _sidebar.md -->
 
-![](docs/logo_square.svg)
+
+
+<p align="center">
+  <a href="https://corumi-os.github.io/opendoc/#/README">
+    <img alt="Corumi Tech" src="docs/logo_square.svg" width="140">
+  </a>
+</p>
 
 目录
 
@@ -10,4 +16,4 @@
 - **实验数据**
   - [BSW202功耗数据](docs/guide/BSW202_pw/index.html)
 - **客户指导**
-  - [Nordic DFU升级指导](docs/guide/dfu/readme.md)
+  - [Nordic DFU升级指导](docs/guide/dfu/README.md)
