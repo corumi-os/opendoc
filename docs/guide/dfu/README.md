@@ -7,7 +7,7 @@
 ![](./pic/icon.webp)
 
 - 软件可通过谷歌官方下载链接[[nRF Connect for Mobile]](https://play.google.com/store/apps/details?id=no.nordicsemi.android.mcp)下载
-- 无法访问谷歌商店的用户可以使用[[本地下载]](https://gitee.com/xianii/nc_guide/raw/master/apk/no.nordicsemi.android.mcp.apk)
+- 无法访问谷歌商店的用户可以使用[[本地下载]](https://github.com/corumi-os/opendoc/releases/download/apk/no.nordicsemi.android.mcp.apk)
 - 请不要在大陆安卓商店下载，因为上面的版本大多为两年之前或更早的版本，无法正常使用。请使用`4.19.2`或更新的版本
 
 ## 1. 打开软件，搜索设备
