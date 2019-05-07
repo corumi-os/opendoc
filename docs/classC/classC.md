@@ -18,6 +18,7 @@
 ## 最近修订历史
 |    日期    | 备注                         |
 | :--------: | :--------------------------- |
+| 2019-05-07 | [v1.0.4](docs/classC/changelog.md) |
 | 2018-11-28 | [v1.0.3](docs/classC/changelog.md) |
 | 2018-06-10 | [v1.0.1](docs/classC/changelog.md) |
 | 2017-10-29 | [v0.2.2](docs/classC/changelog.md) |
