@@ -17,3 +17,7 @@
   - [BSW202功耗数据](docs/guide/BSW202_pw/index.html)
 - **客户指导**
   - [Nordic DFU升级指导](docs/guide/dfu/README.md)
+
+- **开发文档**
+  - [ComiNode 协议文档](docs/mesh_uart/index.md)
+
