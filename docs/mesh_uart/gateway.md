@@ -6,7 +6,7 @@
 
 协议框架如下：
 
-![](D:/github/Corumi_opendoc/docs/mesh_uart/table_temp.png)
+![](./table_temp.png)
 
 ## 指令列表
 
