@@ -1,6 +1,6 @@
-# ComiNode 模块接口
+# ComiNode-GP模块接口
 
-本文档内容描述了蓝牙Mesh模块`ComiNode`的硬件接口。
+本文档内容描述了蓝牙Mesh模块`ComiNode-GP`的硬件接口。
 
 ![](./module.jpg)
 

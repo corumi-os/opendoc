@@ -7,7 +7,9 @@
 ---
 
   - [主页](docs/mesh_uart/index.md)
-  - [硬件接口](docs/mesh_uart/pcb.md)
+  - [硬件接口](#)
+      - [CN-GW](docs/mesh_uart/CN-GW-hw.md)
+      - [CN-GP](docs/mesh_uart/CN-GP-hw.md)
   - [通信协议](docs/mesh_uart/protocol.md)
 	+ [网关模块](docs/mesh_uart/gateway.md)
 	+ [透传模块](docs/mesh_uart/transmission.md)
