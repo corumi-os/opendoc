@@ -19,5 +19,5 @@
   - [Nordic DFU升级指导](docs/guide/dfu/README.md)
 
 - **开发文档**
-  - [ComiNode 协议文档](docs/mesh_uart/index.md)
+  - [蓝牙5.0 组网模块协议](docs/mesh_uart/index.md)
 
