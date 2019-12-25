@@ -9,4 +9,5 @@
 - [Class C协议文档](docs/classC/classC.md)
 - [BSW202功耗数据](docs/guide/BSW202_pw/index.html)
 - [Nordic DFU升级指导](docs/guide/dfu/README.md)
+- [蓝牙5.0 组网模块协议](docs/mesh_uart/index.md)
 
