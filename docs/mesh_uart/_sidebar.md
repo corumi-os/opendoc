@@ -13,6 +13,7 @@
   - [通信协议](docs/mesh_uart/protocol.md)
 	+ [CN-GW模块](docs/mesh_uart/CN-GW-protocol.md)
 	+ [CN-TM模块](docs/mesh_uart/CN-TM-protocol.md)
+	+ [CN-GW-LP模块](docs/mesh_uart/CN-GW-LP-protocol.md)
 	+ [CN-TM-ULP模块](docs/mesh_uart/CN-TM-ULP-protocol.md)
 	+ [传感器模块(建设中)]()
 	+ [物理输入模块(建设中)]()
