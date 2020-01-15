@@ -1,2 +1,4 @@
 *.sh
 *.psd
+_*
+.vscode
