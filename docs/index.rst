@@ -10,6 +10,8 @@
     :caption: 通信协议
 
     protocol/classC/classC
+    蓝牙接口 <protocol/bluetooth_port>
+    protocol/device_list
 
 .. toctree::
     :maxdepth: 1
