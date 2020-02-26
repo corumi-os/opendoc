@@ -8,7 +8,13 @@
   </a>
 </p>
 
-目录
+**注意！本地址已经过期**
+
+---
+
+[**点击进入新版文档中心**](https://corumi-os-doc.readthedocs.io/)
+
+---
 
 - **开源协议**
   - [Class C协议文档](docs/classC/classC.md)
