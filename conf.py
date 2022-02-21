@@ -21,13 +21,13 @@ import sphinx_rtd_theme
 # -- Project information -----------------------------------------------------
 
 project = 'Corumi opendoc'
-copyright = '2020, Corumi'
+copyright = '2022, Corumi'
 author = 'corumi'
 
 # The short X.Y version
-version = '2.0'
+version = '2.1'
 # The full version, including alpha/beta/rc tags
-release = '2.0.0 alpha'
+release = '2.1.0 alpha'
 
 
 # -- General configuration ---------------------------------------------------
