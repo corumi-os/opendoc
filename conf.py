@@ -25,9 +25,9 @@ copyright = '2022, Corumi'
 author = 'corumi'
 
 # The short X.Y version
-version = '2.1'
+version = '3.1'
 # The full version, including alpha/beta/rc tags
-release = '2.1.0 alpha'
+release = '3.1.0 alpha'
 
 
 # -- General configuration ---------------------------------------------------
