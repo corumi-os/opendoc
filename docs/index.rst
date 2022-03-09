@@ -14,6 +14,7 @@
     蓝牙接口 <protocol/bluetooth_port>
     protocol/device_list
     protocol/hand_move
+    protocol/pub_info
 
 .. toctree::
     :maxdepth: 1
