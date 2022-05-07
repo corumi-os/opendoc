@@ -492,8 +492,9 @@
 
 .. admonition:: 例
 
-	|	:guilabel:`->MCU`: $FC , $length= ``8`` , ``0x01`` , ``0x01`` , ``0x01`` , ``0x01`` 
+	|	:guilabel:`->MCU`: $FC , $length= ``10`` , ``0x01`` , ``0x01`` , ``0x01`` , ``0x01`` 
 	|		``0x6C`` , ``0x09`` , ``0x2B`` , ``0x62`` :guilabel:`0x622B096C = 2022 - 03 - 11  16 : 33 : 48`
+	|		``8`` , ``30`` :guilabel:`UTC+0830`
 	|
 	|	:guilabel:`MCU->`: ack
 
