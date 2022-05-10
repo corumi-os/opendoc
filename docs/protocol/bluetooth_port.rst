@@ -12,7 +12,7 @@
 
 - 设备类型: ``0x06`` (LE General Discoverable Mode, BR/EDR not supported.)
 - UUID:默认包含 ``微信服务`` 和 ``小米服务`` (客制化model可能变更)
-- 厂商信息: ``0x50`` , ``0x50`` , ``设备识别码`` (1byte), ``符合微信接口的Mac地址`` (6bytes)
+- 厂商信息: ``0x50`` , ``0x50`` , ``0xCC`` ,  ``0x22`` , ``设备识别码`` (1byte), ``符合微信接口的Mac地址`` (6bytes)
 - 缩略广播名
 - 完整广播名
 
