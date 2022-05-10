@@ -11,7 +11,6 @@
 
     protocol/classL/classL
     protocol/classCplus/classCplus
-    protocol/classC/classC
     蓝牙接口 <protocol/bluetooth_port>
     protocol/device_list
     protocol/hand_move
