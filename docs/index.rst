@@ -12,7 +12,7 @@
     protocol/classL/classL
     protocol/classCplus/classCplus
     蓝牙接口 <protocol/bluetooth_port>
-    protocol/device_list
+    protocol/gearbox_list
     protocol/hand_move
     protocol/pub_info
 
